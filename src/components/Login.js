@@ -48,8 +48,8 @@ const Login = () => {
         </h1>
         {!isSignInform && (
           <input
-            ref={name}
-            type="name"
+            //ref={name}
+            type="text"
             placeholder="Full Name"
             className="p-4 my-4 w-full bg-gray-700 rounded-md"
           />
