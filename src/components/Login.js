@@ -41,7 +41,6 @@ const Login = () => {
           This page is protected by Google reCAPTCHA to <br /> ensure you're not
           a bot.
           <span className=" text-blue-700 hover:underline cursor-pointer">
-            {" "}
             Learn more.
           </span>
         </p>
