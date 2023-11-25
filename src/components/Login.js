@@ -12,7 +12,7 @@ import { addUser } from "../Utils/userSlice";
 import { BANNER_NETFLIX, USER_AVATAR } from "../Utils/constant";
 
 const Login = () => {
-  const [isSignInform, setIsSignInForm] = useState(false);
+  const [isSignInform, setIsSignInForm] = useState(true);
 
   const [errorMessage, setErrorMessage] = useState(null);
 
