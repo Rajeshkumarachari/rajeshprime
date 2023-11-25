@@ -1,2 +1,17 @@
-export const PHOTO_LOGO =
-  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAilBMVEVmjD////////1fiDdjijz///tiijpchjBbhjK1v5RZhC3m6Nzu8ONqjDudrnH///l/l0b//POuuom2xJuJoWKdrneCnVpkhjGOpWjl5dD5+PLDyafa4MpQfRXv7t14lVKNpG2AnmJyk0vV2LvQ17+ouIyLolp0kEByjTRcgyXFyqDO07KksoClr3aPhd03AAACgUlEQVRoge2ZbXOjIBSFiyIg0ZhoFN9CUu2udbX//++trmnUNtOSQmdnd+7zLWY8514EDCcPDwAAAAAAAAAAAAAAAAAAAP8JhBD817SYf4jjRNgmzKmfxtuEqmthEXoOQnkWU21z4rueY1l5lqpqYZqhCwXXdMfNVctV9Kfl5QbLQi7Tsz9KZF39lXph4XyH4yREx51FaCY/qUxAsZntLc3hJ97sbqFIYSjxKV9UjDZCwx2fkLOwzxRaIamztPd8DXtyngdy8M+PChUfAnP2j2ilpWJfrQa/1Hn2uFq1Uqto0aflLT+0Vp5dzkqW1avsfOTgONcnpjX2g/3PcfOYzFGmNotZP1ecaG773EWv9vuT4hbCt/vJXe60Xzq8v2hljbKW3billGVsa215F60qyuTmKaZ3aGHW+oIbed8OWlyIO963AAAAAAAAAPBPYSwn+5I5bXxTv7WxfWcrg3nnea5OUjFjP4fn9o6DL+bPxZ+TVq+ZU03u6XBo3P8SXG0I7DbpxmRlOGSqxAufIqa4KI8q/umxjXA/zq5hjQl7nLwmFnl38NkHFdjUT4tFtBWEJiafPys6mVtRemMiYptSse3kMieRyrHqh9jJfqXahbu25ZzZE4zxtt31RbaKddA+bg0tPCKiVQGDtqy7KAz7vg/DqKvlm6+HGntT5iO06ub4y1pEQddryw9BmRrbciYwr1zvnektHK9IDOUUqwJYG9fBu06v7U9Xve4gPl+eX4PwNi1kcMt9LMCrw93xu7wvFTDabItS5ssiAk/WRdzcXJHGGZe4XyXnl9CNIrd/2T6eKjFYf2vbb2vAZFzxbFj8BJv7CwwAAAAAAAAAAAAA1PgNIaUgk5FHnzAAAAAASUVORK5CYII=";
+export const USER_AVATAR =
+  "https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp";
+
+export const LOGO =
+  "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
+
+export const BANNER_NETFLIX =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_medium.jpg";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYWQ0YmQ0ODA4OGI4MzRhMzBmMDdmYzI3NGVhZThkMCIsInN1YiI6IjY1NDg2MTlmOTI0Y2U2MDBlNTNmOTMyYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MZlPmgb7srcphM28Cseu5RfMWqOfI8Lx_CMRG320_ys",
+  },
+};
