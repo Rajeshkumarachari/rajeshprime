@@ -9,7 +9,8 @@ const Login = () => {
 
   const email = useRef(null);
   const password = useRef(null);
-  const name = useRef(null);
+  const name = useRef("Rajesh");
+
   const handleButtonClick = () => {
     const message = checkValidData(
       email.current.value,
@@ -17,11 +18,9 @@ const Login = () => {
       name.current.value
     );
 
-    console.log(
-      email.current.value,
-      password.current.value,
-      name.current.value
-    );
+    console.log(email.current.value);
+    console.log(password.current.value);
+    console.log(name.current.value);
     console.log(message);
     setErrorMessage(message);
   };
@@ -48,7 +47,7 @@ const Login = () => {
         </h1>
         {!isSignInform && (
           <input
-            //ref={name}
+            ref={name}
             type="text"
             placeholder="Full Name"
             className="p-4 my-4 w-full bg-gray-700 rounded-md"
@@ -76,9 +75,11 @@ const Login = () => {
         <div className="flex">
           <input className=" w-4" type="checkbox" />
           <p className=" text-sm text-gray-500">Remember me</p>
-          <p className=" ml-[220px] text-sm text-gray-500">Need help?</p>
+          <p className=" ml-[220px] text-sm text-gray-500 hover:underline cursor-pointer">
+            Need help?
+          </p>
         </div>
-        <p className=" text-gray-500 text-lg my-3">
+        <p className=" text-gray-500 text-lg mt-20 ">
           {isSignInform ? "New to Netflix?" : "Already registered !"}
 
           <span
