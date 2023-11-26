@@ -4,23 +4,23 @@ const lang = {
     gptSearchPlaceholder: "What would like to watch today?",
   },
   telugu: {
-    search: "Search",
+    search: "వెతకండి",
     gptSearchPlaceholder: "ఈరోజు ఏమి చూడాలనుకుంటున్నారు?",
   },
   hindi: {
-    search: "Search",
+    search: "खोज",
     gptSearchPlaceholder: "आज क्या देखना चाहेंगे?",
   },
   tamil: {
-    search: "Search",
+    search: "தேடு",
     gptSearchPlaceholder: "இன்று என்ன பார்க்க விரும்புகிறேன்?",
   },
   malayalam: {
-    search: "Search",
+    search: "തിരയുക",
     gptSearchPlaceholder: "ഇന്ന് എന്താണ് കാണാൻ ആഗ്രഹിക്കുന്നത്?",
   },
   kannada: {
-    search: "Search",
+    search: "ಹುಡುಕಿ",
     gptSearchPlaceholder: "ಇಂದು ಏನನ್ನು ವೀಕ್ಷಿಸಲು ಬಯಸುತ್ತದೆ?",
   },
 };

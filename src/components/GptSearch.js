@@ -6,7 +6,7 @@ import { BANNER_NETFLIX } from "../Utils/constant";
 const GptSearch = () => {
   return (
     <div>
-      <div className="absolute -z-10">
+      <div className="fixed -z-10">
         <img src={BANNER_NETFLIX} alt="banner" />
       </div>
       <GptSearchBar />
