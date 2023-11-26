@@ -91,13 +91,17 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img src={BANNER_NETFLIX} alt="banner" />
+        <img
+          className=" h-screen w-screen object-cover "
+          src={BANNER_NETFLIX}
+          alt="banner"
+        />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className=" absolute p-12 bg-black w-[500px] my-36  mx-auto right-0 left-0 text-white bg-opacity-80 rounded-md"
+        className=" absolute p-12 bg-black w-full md:w-[500px] my-36  mx-auto right-0 left-0 text-white bg-opacity-80 rounded-md"
       >
-        <h1 className=" font-bold text-3xl py-4">
+        <h1 className=" font-bold text-xl md:text-3xl py-4">
           {isSignInform ? "Sign In" : "Sign Up"}
         </h1>
         {!isSignInform && (

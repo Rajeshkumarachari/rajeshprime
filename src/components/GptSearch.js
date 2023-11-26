@@ -5,13 +5,19 @@ import { BANNER_NETFLIX } from "../Utils/constant";
 
 const GptSearch = () => {
   return (
-    <div>
+    <>
       <div className="fixed -z-10">
-        <img src={BANNER_NETFLIX} alt="banner" />
+        <img
+          className="h-screen object-cover w-screen"
+          src={BANNER_NETFLIX}
+          alt="banner"
+        />
       </div>
-      <GptSearchBar />
-      <GptMoviesSuggestions />
-    </div>
+      <div className="">
+        <GptSearchBar />
+        <GptMoviesSuggestions />
+      </div>
+    </>
   );
 };
 
