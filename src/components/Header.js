@@ -54,17 +54,17 @@ const Header = () => {
     dispatch(changeLanguage(e.target.value));
   };
   return (
-    <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between ">
+    <div className="absolute w-full px-8  py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between ">
       <img
         className=" w-52 cursor-pointer mx-auto md:mx-0 "
         src={LOGO}
         alt="logo"
       />
       {user && (
-        <div className="flex p-2 justify-between ">
+        <div className="flex py-[0px] md:py-4 p-2 justify-between ">
           {showGptSearch && (
             <select
-              className="  sm:mr-4  md:ml-1 m-3 h-10 mt-4 rounded-md px-2 bg-gray-800 text-white"
+              className="w-20  md:w-0 sm:mr-2 ml-[-20px]  md:ml-[10px] m-3 h-10 mt-4 rounded-md px-2 bg-gray-800 text-white"
               onChange={handleLanguageChange}
             >
               {SUPPORTED_LANGUAGES.map((lang) => (
@@ -76,7 +76,7 @@ const Header = () => {
           )}
           <button
             onClick={handleGptSearchClick}
-            className=" text-white h-10 mt-4 px-4 mr-4 bg-purple-800 rounded-md"
+            className=" text-white h-9 md:h-10  text-xs md:text-base mt-4 px-4 md:px-4 mr-4 bg-purple-800 rounded-md"
           >
             {showGptSearch ? "Home page" : "GPT Search"}
           </button>
@@ -87,7 +87,7 @@ const Header = () => {
           />
           <button
             onClick={handleSignOut}
-            className=" text-xs md:text-lg text-white bg-red-500 shadow-md pb-1 my-4 pt-1  px-3 font-semibold h-10 rounded-lg hover:bg-red-600"
+            className=" text-xs md:text-lg text-white bg-red-500 shadow-md pb-1 mr-10 md:mr-0  my-4 pt-1 px-5 md:px-3 font-semibold h-10 rounded-lg hover:bg-red-600"
           >
             Sign Out
           </button>

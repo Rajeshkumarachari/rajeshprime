@@ -92,7 +92,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          className=" h-screen w-screen object-cover "
+          className=" h-screen w-screen object-cover  bg-no-repeat bg-auto "
           src={BANNER_NETFLIX}
           alt="banner"
         />
@@ -134,7 +134,7 @@ const Login = () => {
         <div className="flex">
           <input className=" w-4" type="checkbox" />
           <p className=" text-sm text-gray-500">Remember me</p>
-          <p className=" ml-[220px] text-sm text-gray-500 hover:underline cursor-pointer">
+          <p className="ml-[190px] md:ml-[220px] text-sm text-gray-500 hover:underline cursor-pointer">
             Need help?
           </p>
         </div>
